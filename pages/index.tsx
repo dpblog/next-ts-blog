@@ -1,22 +1,13 @@
-import React, { Component } from 'react'
+import React, { ReactElement } from "react";
+import { Navbar } from "../components";
+interface Props {}
 
-interface Props {
-  
-}
-interface State {
-  
-}
-
-class index extends Component<Props, State> {
-  state = {}
-
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
+function index({}: Props): ReactElement {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
-export default index
+export default index;
