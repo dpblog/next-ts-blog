@@ -44,6 +44,7 @@ export const NavIcon = styled(FaCode)`
 
 export const MobileIcon = styled.div`
   display: none;
+  color: #fff;
   @media screen and (max-width: 960px) {
     display: block;
     position: absolute;
