@@ -1,6 +1,10 @@
 version: "3.7"
 services:
   web:
-    ports:
-      - "80:3000"
     build: .
+  nginx:
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
