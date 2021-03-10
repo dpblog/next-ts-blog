@@ -12,9 +12,9 @@ const GlobalStyle = createGlobalStyle`
     margin:0;
     padding:0;
     font-family: 'Source Sans Pro', sans-serif;
-}
+    font-size: 62.5%;
+  }
 `;
-
 export const Container = styled.div`
   z-index: 1;
   width: 100%;

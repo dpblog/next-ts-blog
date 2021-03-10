@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 3rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -31,7 +31,7 @@ export const NavLogo = styled.a`
   align-items: center;
   color: #fff;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 4rem;
   cursor: pointer;
   &:hover {
     color: #f56038;
@@ -39,7 +39,7 @@ export const NavLogo = styled.a`
 `;
 
 export const NavIcon = styled(FaCode)`
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 `;
 
 export const MobileIcon = styled.div`
@@ -51,7 +51,7 @@ export const MobileIcon = styled.div`
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    font-size: 3.2rem;
     cursor: pointer;
   }
 `;
@@ -95,6 +95,7 @@ export const NavLinks = styled.a`
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-size: 2rem;
   &:hover {
     color: #f56038;
     transition: all 0.3s ease;
